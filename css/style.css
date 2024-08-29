@@ -67,6 +67,38 @@ header .btnMenu{
     display: none;
 }
 
+header .social{
+    /* background-color: #15171C; */
+    border: 1px solid #15171C;
+}
+
+header .linkedin{
+    font-size: 40px;
+    border-radius: 10px;
+    /* color: #0077B5; */
+    color: white;
+}
+
+header .linkedin:hover{
+    transform: scale(1);
+    color: #0077B5;
+    inline-size: none;
+    background-color: #fff;
+}
+
+header .github{
+    font-size: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+header .github:hover{
+    transform: scale(1);
+    color: black;
+    inline-size: none;
+    background-color: #fff;
+}
+
 main{
     margin-top: 10vh;
     margin-left: 2.37rem;
@@ -102,6 +134,15 @@ main{
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.fullWebsite h2{
+    /* font-size: clamp(2.3rem, 5vw, 16rem); */
+    font-weight: 400;
+    color: white;
+    /* background: linear-gradient(to left, #FF4E88, #7A1CAC);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .fullWebsite p{
@@ -194,7 +235,7 @@ h4{
 .lista_lenguajes{
     justify-content: start;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .lenguajes{
@@ -256,6 +297,18 @@ h4{
     border: none;
     
 }
+
+.tipoProyecto{
+    color: #FF4E88;
+    /* font-style: italic; */
+    font-size: 15px;
+}
+
+.demo{
+    color: #7A1CAC;
+    text-decoration: none;
+}
+
 
 /* .imgPortada{
     border: 3px solid green;
