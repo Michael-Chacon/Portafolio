@@ -63,6 +63,10 @@ header nav a:active{
     outline: 1px solid #7A1CAC;
 }
 
+header nav a:hover{
+    color: #FF4E88;
+}
+
 header .btnMenu{
     display: none;
 }
@@ -129,7 +133,7 @@ main{
 
 .fullWebsite h1{
     font-size: clamp(2.3rem, 5vw, 16rem);
-    font-weight: 500;
+    font-weight: 400;
     background: linear-gradient(to right, #7A1CAC, #FF4E88);
     background-size: cover;
     -webkit-background-clip: text;
@@ -137,7 +141,7 @@ main{
 }
 .fullWebsite h2{
     /* font-size: clamp(2.3rem, 5vw, 16rem); */
-    font-weight: 400;
+    font-weight: 200;
     color: white;
     /* background: linear-gradient(to left, #FF4E88, #7A1CAC);
     background-size: cover;
