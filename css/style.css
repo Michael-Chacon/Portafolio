@@ -119,9 +119,10 @@ main{
 }
 
 .imgHome{
-    width: 80%;
+    height: 550px;
+    /* width: 50%; */
     object-fit: contain;
-    padding: 0px 2.75rem;
+    /* padding: 0px 2.75rem; */
 }
 
 .fullWebsite .textoHome{
@@ -165,6 +166,22 @@ button{
     cursor: pointer;
     font-size: 16px;
     border-radius: 10px !important;
+}
+
+.btnHome{
+    background-color: #7A1CAC;
+    color: white;
+    border: none;
+    padding:10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px !important;
+    text-decoration: none;
+}
+
+.btnHome:hover{
+    color: black;
 }
 
 /* About us */
@@ -313,12 +330,28 @@ h4{
     text-decoration: none;
 }
 
+/* Contacto */
 
-/* .imgPortada{
-    border: 3px solid green;
-    object-fit: cover;
-    height: 40vh;
-} */
+.contacto{
+    height: 50vh;
+    padding-top: 30px;
+    color: white;
+}
+
+.texto-contacto{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.correo{
+    color: #FF4E88;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer{
+    color: gray;
+    font-size: 13px;
+}
 
 /* Responive */
 
